@@ -10,7 +10,6 @@ GitLab: This works perfectly because GitLab accepts your session cookie for API 
 
 GitHub: GitHub has strict CORS and API Rate Limiting for unauthenticated requests. If you are on a private repository, the GitHub fetch might return a 404 or 403 because it doesn't always automatically pass your session cookie to api.github.com.
 
-If the GitHub part fails: Use the script from my previous response which reads the text directly from your screen, as that bypasses all API permission hurdles.
 **/
 
 (async () => {
